@@ -59,8 +59,9 @@ button {
     margin: 7% 8%;
     font-weight: bold;
     letter-spacing: 1px;
-
+    cursor: pointer;
 }
+
 .Sedans {
     background-color: hsl(31, 77%, 52%);
     
@@ -72,6 +73,23 @@ button {
     background-color: hsl(179, 100%, 13%);
   
 }
+.Sedans button {
+    color: hsl(31, 77%, 52%);
+    
+}
+.SUVs button {
+    color: hsl(184, 100%, 22%);
+}
+.luxury button {
+    color: hsl(179, 100%, 13%);
+  
+}
+button:hover {
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%); 
+}
+
 
 /* media query */
 @media screen and (min-width: 840px) {
@@ -84,7 +102,6 @@ button {
     }
     .container {
         display: flex;
-        align-items: center;
         flex-direction: row;
     }
     .card {
