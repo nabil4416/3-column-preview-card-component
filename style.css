@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    font-size: 15px;
+}
+main {
+    width: 330px;
+}
+.container {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.icon {
+    width: 60px;
+    margin: 10% 10% 8%;
+}
+.card {
+    padding: 6% 7% 7%;
+}
+.card h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 5% 10%;
+    font-size: 2.5rem;
+}
+.card p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 3% 9%;
+    line-height: 25px;
+}
+button {
+    width: 150px;
+    font-family: 'Lexend Deca';
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 20px;
+    padding: 15px 10px;
+    margin: 7% 8%;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+.Sedans {
+    background-color: hsl(31, 77%, 52%);
+    
+}
+.SUVs {
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+  
+}
+
+/* media query */
+@media screen and (min-width: 840px) {
+    body {
+        background-color: #ccc;
+    }
+    main {
+        width: 830px;
+        margin-top: 100px;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    .card {
+        padding: 0 0 5%;
+        height: auto;
+    }
+    .icon {
+        margin: 15% 15% 5%;
+    }
+    .card h2 {
+        padding: 5% 15%;
+    }
+    .card p {
+        padding: 3% 13% 10%;
+    }
+    button {
+        width: 130px;
+        text-align: center;
+        background-color: hsl(0, 0%, 95%);
+        border: none;
+        border-radius: 20px;
+        padding: 15px 10px;
+        margin: 10% 15% 0;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .Sedans {
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 10px 0 0 10px;
+    }
+    .SUVs {
+        background-color: hsl(184, 100%, 22%);
+    }
+    .luxury {
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0 10px 10px 0;
+    }
+    
+ }
+
+
+
+.attribution { 
+    font-size: 14px; 
+    text-align: center;
+    padding-top: 5%;
+ }
+.attribution a { color: hsl(127, 72%, 47%); }
